@@ -58,7 +58,7 @@
                 android:drawableTop="@mipmap/circulo"
                 android:paddingTop="27dp"
                 android:textColor="#F7F4F4"
-                android:text="Circulo"
+                android:text="Baskara"
                 android:backgroundTint="#6A5ACD" />
 
         </LinearLayout>
@@ -101,7 +101,7 @@
                 android:drawableTop="@mipmap/quadrado"
                 android:paddingTop="27dp"
                 android:textColor="#F7F4F4"
-                android:text="Quadrado"
+                android:text="Pitagoras"
                 android:backgroundTint="#6A5ACD" />
 
         </LinearLayout>
@@ -144,7 +144,7 @@
                 android:drawableTop="@mipmap/trianguloisosceles"
                 android:paddingTop="27dp"
                 android:textColor="#F7F4F4"
-                android:text="Triangulo Isosceles"
+                android:text="Losangulo"
                 android:backgroundTint="#6A5ACD" />
 
         </LinearLayout>
@@ -163,7 +163,7 @@
                 android:drawableTop="@mipmap/trianguloisosceles"
                 android:paddingTop="27dp"
                 android:textColor="#F7F4F4"
-                android:text="Triangulo Isosceles"
+                android:text="Trapezio"
                 android:backgroundTint="#6A5ACD" />
 
             <Button
@@ -175,7 +175,7 @@
                 android:drawableTop="@mipmap/trianguloretangulo"
                 android:paddingTop="27dp"
                 android:textColor="#F7F4F4"
-                android:text="Triangulo Retangulo"
+                android:text="Hexagono"
                 android:backgroundTint="#6A5ACD" />
 
             <Button
@@ -187,7 +187,7 @@
                 android:drawableTop="@mipmap/trianguloisosceles"
                 android:paddingTop="27dp"
                 android:textColor="#F7F4F4"
-                android:text="Triangulo Isosceles"
+                android:text="Paralelogramo"
                 android:backgroundTint="#6A5ACD" />
 
         </LinearLayout>
