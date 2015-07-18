@@ -1,0 +1,56 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:background="#4A708B">
+    tools:context="br.com.fontenovaimoveis.fontenapp.Losangulo">
+
+    <TextView
+        android:textColor="#F7F4F4"
+        android:text="Informe a Base Maior:" android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/TextBase" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="numberDecimal"
+        android:ems="10"
+        android:id="@+id/editTextBaseMaior"
+        android:layout_below="@+id/TextBase"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:textColor="#F7F4F4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Informe a Base Menor:"
+        android:id="@+id/textViewBasemenor"
+        android:layout_below="@+id/editTextBaseMaior"
+        android:layout_alignLeft="@+id/TextBase"
+        android:layout_alignStart="@+id/TextBase" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="numberDecimal"
+        android:ems="10"
+        android:id="@+id/editTextBasemenor"
+        android:layout_below="@+id/textViewBasemenor"
+        android:layout_alignLeft="@+id/editTextBaseMaior"
+        android:layout_alignStart="@+id/editTextBaseMaior" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Calcular"
+        android:id="@+id/buttonCalc"
+        android:layout_marginTop="145dp"
+        android:layout_below="@+id/editTextBasemenor"
+        android:layout_centerHorizontal="true" />
+
+</RelativeLayout>

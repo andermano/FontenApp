@@ -1,0 +1,75 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:background="#4A708B"
+    tools:context="br.com.fontenovaimoveis.fontenapp.Trapezio">
+
+    <TextView
+        android:textColor="#F7F4F4"
+        android:text="Digite a Base Maior:" android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/textViewBaseMaior" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="numberDecimal"
+        android:ems="10"
+        android:id="@+id/editTextBaseMaiorTrapezio"
+        android:layout_below="@+id/textViewBaseMaior"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#F7F4F4"
+        android:text="Digite a Base Menor:"
+        android:id="@+id/textView8"
+        android:layout_below="@+id/editTextBaseMaiorTrapezio"
+        android:layout_alignLeft="@+id/textViewBaseMaior"
+        android:layout_alignStart="@+id/textViewBaseMaior" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="numberDecimal"
+        android:ems="10"
+        android:id="@+id/editTextBaseMenorTrapezio"
+        android:layout_below="@+id/textView8"
+        android:layout_alignRight="@+id/editTextBaseMaiorTrapezio"
+        android:layout_alignEnd="@+id/editTextBaseMaiorTrapezio" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#F7F4F4"
+        android:text="Digite a Altura:"
+        android:id="@+id/textViewAltura"
+        android:layout_below="@+id/editTextBaseMenorTrapezio"
+        android:layout_centerHorizontal="true" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="numberDecimal"
+        android:ems="10"
+        android:id="@+id/editTextAlturaTrapezio"
+        android:layout_below="@+id/textViewAltura"
+        android:layout_alignRight="@+id/editTextBaseMenorTrapezio"
+        android:layout_alignEnd="@+id/editTextBaseMenorTrapezio" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Calcular"
+        android:id="@+id/buttonCalc"
+        android:layout_below="@+id/editTextAlturaTrapezio"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="95dp" />
+
+</RelativeLayout>

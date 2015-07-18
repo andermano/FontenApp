@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="br.com.fontenovaimoveis.fontenapp" >
+
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="MathApp"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".MainActivity"
+            android:label="MathApp" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <action android:name="android.intent.action.MAIN2" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Circulo"
+            android:label="@string/title_activity_circulo"
+            android:parentActivityName=".MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="br.com.fontenovaimoveis.fontenapp.MainActivity" />
+        </activity>
+
+        <activity
+            android:name=".Cubo"
+            android:label="@string/title_activity_cubo"
+            android:parentActivityName=".MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="br.com.fontenovaimoveis.fontenapp.MainActivity" />
+
+        </activity>
+        <activity
+            android:name=".Quadradro"
+            android:label="@string/title_activity_quadradro"
+            android:parentActivityName=".MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="br.com.fontenovaimoveis.fontenapp.MainActivity" />
+        </activity>
+        <activity
+            android:name=".Retangulo"
+            android:label="@string/title_activity_retangulo"
+            android:parentActivityName=".MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="br.com.fontenovaimoveis.fontenapp.MainActivity" />
+        </activity>
+        <activity
+            android:name=".TrianguloI"
+            android:label="@string/title_activity_triangulo_i"
+            android:parentActivityName=".MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="br.com.fontenovaimoveis.fontenapp.MainActivity" />
+        </activity>
+        <activity
+            android:name=".TrianguloR"
+            android:label="@string/title_activity_triangulo_r"
+            android:parentActivityName=".MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="br.com.fontenovaimoveis.fontenapp.MainActivity" />
+        </activity>
+        <activity
+            android:name=".Baskaraa"
+            android:label="@string/title_activity_baskaraa"
+            android:parentActivityName=".MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="br.com.fontenovaimoveis.fontenapp.MainActivity" />
+        </activity>
+        <activity
+            android:name=".Baskara"
+            android:label="@string/title_activity_baskara"
+            android:parentActivityName=".MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="br.com.fontenovaimoveis.fontenapp.MainActivity" />
+        </activity>
+        <activity
+            android:name=".Pitagoras"
+            android:label="@string/title_activity_pitagoras"
+            android:parentActivityName=".MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="br.com.fontenovaimoveis.fontenapp.MainActivity" />
+        </activity>
+        <activity
+            android:name=".Losango"
+            android:label="@string/title_activity_losango"
+            android:parentActivityName=".MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="br.com.fontenovaimoveis.fontenapp.MainActivity" />
+        </activity>
+        <activity
+            android:name=".Losangulo"
+            android:label="@string/title_activity_losangulo"
+            android:parentActivityName=".MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="br.com.fontenovaimoveis.fontenapp.MainActivity" />
+        </activity>
+        <activity
+            android:name=".Trapezio"
+            android:label="@string/title_activity_trapezio"
+            android:parentActivityName=".MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="br.com.fontenovaimoveis.fontenapp.MainActivity" />
+        </activity>
+        <activity
+            android:name=".Hexagono"
+            android:label="@string/title_activity_hexagono"
+            android:parentActivityName=".MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="br.com.fontenovaimoveis.fontenapp.MainActivity" />
+        </activity>
+        <activity
+            android:name=".Paralelogramo"
+            android:label="@string/title_activity_paralelogramo"
+            android:parentActivityName=".MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="br.com.fontenovaimoveis.fontenapp.MainActivity" />
+        </activity>
+    </application>
+
+</manifest>

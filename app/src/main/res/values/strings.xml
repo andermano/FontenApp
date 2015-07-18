@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">FontenApp</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_circulo">Circulo</string>
+    <string name="title_activity_cubo">Cubo</string>
+    <string name="title_activity_quadradro">Quadradro</string>
+    <string name="title_activity_retangulo">Retangulo</string>
+    <string name="title_activity_triangulo_i">TrianguloI</string>
+    <string name="title_activity_triangulo_r">TrianguloR</string>
+    <string name="title_activity_baskaraa">Baskaraa</string>
+    <string name="title_activity_baskara">Baskara</string>
+    <string name="title_activity_pitagoras">Pitagoras</string>
+    <string name="title_activity_losango">Losango</string>
+    <string name="title_activity_losangulo">Losangulo</string>
+    <string name="title_activity_trapezio">Trapezio</string>
+    <string name="title_activity_hexagono">Hexagono</string>
+    <string name="title_activity_paralelogramo">Paralelogramo</string>
+</resources>
